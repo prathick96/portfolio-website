@@ -90,3 +90,9 @@
     color: black;
   }
 }
+
+hr.vertical {
+  height: 100%;
+  width: 0;
+  border: 1px solid black;
+}
