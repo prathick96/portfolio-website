@@ -96,3 +96,23 @@ hr.vertical {
   width: 0;
   border: 1px solid black;
 }
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.img-contact {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-center {
+  position: absolute;
+  top: 6%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
