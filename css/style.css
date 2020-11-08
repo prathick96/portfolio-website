@@ -4,8 +4,10 @@
 }
 
 .home-bg {
+  margin: auto;
   background-image: url("https://res.cloudinary.com/dfppytfle/image/upload/c_scale,q_87,w_1400,x_800,y_0/v1596486002/IMG20200804002158-01_cantvt.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   top: -90px;
   border: 2px transparent;
   width: 100%;
@@ -57,6 +59,8 @@
   font-size: 94px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
+
 
 @media only screen and (max-width: 600px) {
   #name {
