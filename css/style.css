@@ -5,7 +5,7 @@
 
 .home-bg {
   margin: auto;
-  background-image: url("https://res.cloudinary.com/dfppytfle/image/upload/c_scale,q_87,w_1400,x_800,y_0/v1596486002/IMG20200804002158-01_cantvt.jpg");
+  background-image: url("https://res.cloudinary.com/dfppytfle/image/upload/v1606138086/453f143ad31ed8482ebed9c4084b8059_tgpfh7.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   top: -90px;
@@ -45,6 +45,14 @@
 .about {
   margin-bottom: 5%;
 }
+.about-pic {
+  height: 150px;
+  width: 145px;
+  float: left;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .skills {
   margin-bottom: 5%;
@@ -60,32 +68,51 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-
-
 @media only screen and (max-width: 600px) {
   #name {
-    color: whitesmoke;
+    color: black;
+  }
+  #num-size {
+    font-size: 64px;
   }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   #name {
-    color: whitesmoke;
+    color: black;
+  }
+  #num-size {
+    font-size: 64px;
   }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
   #name {
-    color: whitesmoke;
+    color: black;
+  }
+  #num-size {
+    font-size: 64px;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   #name {
-    color: whitesmoke;
+    color: black;
+  }
+  #num-size {
+    font-size: 64px;
+  }
+}
+
+@media only screen and (width: 1024px) and (height: 1366px) {
+  #name {
+    color: black;
+  }
+  #num-size {
+    font-size: 56px;
   }
 }
 
@@ -93,6 +120,9 @@
 @media only screen and (min-width: 1200px) {
   #name {
     color: black;
+  }
+  #num-size {
+    font-size: 72px;
   }
 }
 
