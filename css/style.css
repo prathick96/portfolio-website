@@ -5,7 +5,7 @@
 
 .home-bg {
   margin: auto;
-  background-image: url("https://res.cloudinary.com/dfppytfle/image/upload/v1606138086/453f143ad31ed8482ebed9c4084b8059_tgpfh7.jpg");
+  background-image: url('https://res.cloudinary.com/dfppytfle/image/upload/v1606138086/453f143ad31ed8482ebed9c4084b8059_tgpfh7.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   top: -90px;
@@ -22,21 +22,21 @@
 
 .home-intro {
   margin-top: 200px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 72px;
   text-align: left;
   text-shadow: 2px 2px grey;
 }
 
 .home-name {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 50px;
   text-align: left;
   text-shadow: 2px 2px grey;
 }
 
 .home-job {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 60px;
   text-align: left;
   text-shadow: 2px 2px grey;
@@ -65,7 +65,7 @@
 
 .card-face {
   font-size: 94px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
