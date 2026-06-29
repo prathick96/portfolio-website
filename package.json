@@ -1,28 +1,38 @@
 {
-  "name": "static",
-  "version": "1.0.0",
-  "description": "This is a static template with no bundling",
-  "main": "index.html",
-  "scripts": {
-    "start": "serve",
-    "build": "echo This is a static template, there is no bundler or bundling involved!"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/codesandbox-app/static-template.git"
-  },
-  "keywords": [
-    "static",
-    "template",
-    "codesandbox"
-  ],
-  "author": "Ives van Hoorne",
+  "name": "padmanabhan-portfolio",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Immersive 3D glass portfolio for Padmanabhan Elango Manivannan — Senior Software Engineer transitioning into AI.",
+  "author": "Padmanabhan Elango Manivannan <paddhu.xd96@gmail.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codesandbox-app/static-template/issues"
+  "homepage": "https://prathick96.github.io/portfolio-website/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
   },
-  "homepage": "https://github.com/codesandbox-app/static-template#readme",
+  "dependencies": {
+    "@react-three/drei": "^9.114.0",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/postprocessing": "^2.16.3",
+    "animejs": "^3.2.2",
+    "clsx": "^2.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.169.0"
+  },
   "devDependencies": {
-    "serve": "^11.2.0"
+    "@types/animejs": "^3.1.12",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/three": "^0.169.0",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11"
   }
 }
